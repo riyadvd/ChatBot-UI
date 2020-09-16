@@ -193,4 +193,12 @@ li:before{
   background: url(../images/bullets1.png) no-repeat center;
 }
 
+@media only screen and (max-width:999px){
+.open-button{
+  right:69px;
+}
 
+.chat-popup{
+  right:0px;
+}
+}
