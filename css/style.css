@@ -1,0 +1,196 @@
+.open-button {
+    color: white;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 2px;
+    right: 0px;
+    width: 12%;
+  }
+  
+  .chat-popup {
+    display:block;
+    position: fixed;
+    bottom: 12px;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    border-radius: 20px;
+    z-index: 9;
+  }
+
+  #icon{
+    display:none;
+  }
+  
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+  }
+  
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+/* ***************************************** */
+
+.form-body{
+  display: block;
+  height: 34rem;
+  width:22rem;
+}
+
+.chat-title{
+  background-color:#f96c0d;
+  padding:0px;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+}
+
+.ask-font{
+  font-size:20px;
+  width:100%;
+  text-align:center !important;
+}
+
+.intro-div{
+  /* background-color: #f96c0d ; */
+  background-image: linear-gradient(to bottom right, #f78538,#f96c0d);
+  padding-left:40px;
+}
+
+.intro-padding{
+  padding-top:2.5rem;
+}
+
+.wave-img{
+  width:11%;
+}
+
+.quest-div{
+  position:absolute;
+  top:12.5rem;
+  background-color:#FFFFFF;
+  width:91%;
+  padding:10px 15px; 
+  border-radius:20px;
+  box-shadow: 0 0 10px gray;
+}
+
+.faq-font{
+  font-size:15px;
+  text-align:left;
+}
+
+.orange{
+  color:#f96c0d;
+  font-size:19px;
+  
+}
+
+.questions{
+  border:1px solid #dadada;
+  padding:7px;
+  font-size:12px;
+  border-radius:10px;
+  text-align: left;
+  margin-bottom: 14px;
+}
+
+.questions:hover{
+  box-shadow: 0 0 4px #8e8989 !important;
+  transition: box-shadow 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.logo-img{
+  width: 14%;
+  position: absolute;
+  top: -21px;
+  left:22px;
+  border-radius:20px;
+  box-shadow: 0 0 2px #b1b1b1;
+}
+
+.new-conv{
+  border: 1px solid #c1c0c0;
+    padding: 3px;
+    width: 80%;
+    border-radius: 17px;
+    box-shadow: 0 0 4px #e4dddd;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.new-conv:active,
+.new-conv:focus,
+.new-conv:hover{
+  box-shadow: 0 0 4px #8e8989 !important;
+}
+
+.description{
+  margin-bottom: 33px;
+    margin-top: 8px;
+}
+
+.open-btn{
+  background-color: #f96c0d;
+  color:#000000 !important;
+}
+
+/* ul.ul-style{
+  list-style-image: url('../images/bullet1.png');
+  list-style-type: none;
+  padding:0;
+  margin:0;
+  list-style-position:inside;
+} */
+
+.ul-style{
+  list-style-type: none;
+}
+
+li:before{
+  content:"\29bf";
+  color:#f76300;
+  font-size:15px;
+  background: url(../images/bullets1.png) no-repeat center;
+}
+
+
