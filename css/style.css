@@ -93,6 +93,8 @@
   /* background-color: #f96c0d ; */
   background-image: linear-gradient(to bottom right, #f78538,#f96c0d);
   padding-left:40px;
+  border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
 }
 
 .intro-padding{
@@ -201,4 +203,6 @@ li:before{
 .chat-popup{
   right:0px;
 }
+
+
 }
