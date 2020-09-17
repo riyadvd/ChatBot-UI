@@ -10,7 +10,7 @@
   }
   
   .chat-popup {
-    display:block;
+    display:none;
     position: fixed;
     bottom: 12px;
     right: 15px;
@@ -20,7 +20,7 @@
   }
 
   #icon{
-    display:none;
+    display:block;
   }
   
   .form-container {
@@ -107,12 +107,14 @@
 
 .quest-div{
   position:absolute;
-  top:12.5rem;
+  top:11.5rem;
   background-color:#FFFFFF;
   width:91%;
   padding:10px 15px; 
   border-radius:20px;
   box-shadow: 0 0 10px gray;
+  height: 20.5rem;
+  display: none;
 }
 
 .faq-font{
@@ -195,6 +197,26 @@ li:before{
   background: url(../images/bullets1.png) no-repeat center;
 }
 
+
+
+.questions{
+  display:none;
+}
+
+.new-conv{
+  display: none;
+}
+
+
+.item1{
+  display:none;
+}
+
+.item2{
+  display:none;
+}
+
+
 @media only screen and (max-width:999px){
 .open-button{
   right:69px;
@@ -206,3 +228,4 @@ li:before{
 
 
 }
+
